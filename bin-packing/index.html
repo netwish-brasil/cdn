@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <title>Bin Packing Algorithm</title>
+  <link href='css/demo.css' rel='stylesheet' type='text/css' media='screen' />
+</head>
+
+<body>
+  <div class="criaPlaca"></div>
+</body>
+
+</html>
+<script src='js/jquery.js'>        </script>
+<script src='js/packer.js'>        </script>
+<script src='js/packer.growing.js'></script>
+<script src='js/demo.js'>          </script>
+<script>
+  var placas = [];
+  placas[0] = {largura:"200",comprimento:"2000",quantidade:2};
+  placas[1] = {largura:"500",comprimento:"220",quantidade:4};
+
+  var pecas = [];
+  pecas[0] = {largura:"10",comprimento:"25",quantidade:5};
+  pecas[1] = {largura:"4",comprimento:"7",quantidade:25};
+  pecas[2] = {largura:"5",comprimento:"15",quantidade:17};
+  pecas[3] = {largura:"22",comprimento:"36",quantidade:74};
+  pecas[4] = {largura:"50",comprimento:"55",quantidade:20};
+  pecas[5] = {largura:"70",comprimento:"20",quantidade:33};
+
+  criaPlaca(placas,pecas,0);
+</script>

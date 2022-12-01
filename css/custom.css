@@ -392,12 +392,12 @@ thead.text-primary {
     border: 3px solid #fa6e5c;
     line-height: 22px;
     padding: 30px;
-    background: url("../../assets/img/check1.png") no-repeat scroll 0 0 transparent;
+    background: url("../../img/check1.png") no-repeat scroll 0 0 transparent;
 }
 
 .checklist input[type="checkbox"]:checked.libera_envio+label.base1 {
     border: 3px solid #00D936;
-    background: url("../../assets/img/check2.png") no-repeat scroll 0 0 transparent;
+    background: url("../../img/check2.png") no-repeat scroll 0 0 transparent;
 }
 
 .carregando {
